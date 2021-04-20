@@ -1,0 +1,15 @@
+# Homework Part1:
+
+Protected vs Private:
+When setting a protected access to the class instances the instances can be accessed and modified from the class itself and derived classes inside and outside the package that its in. However setting it to private limits this access to only the class that the instances are in; Meaning they can't be accessed or modified immidiatly but rather through getter and setters. Which mean private access restriction is higher than protected.
+Both protected and private have pros and cons:
+
+#Protected access pros: Makes it easier to access the instances from derived classes which means less code to write (getters and setters).Its easier to work with when having inheritance.
+#Protected access Cons: It breaks the encapsulation of the data; The instance security is low since it can be accessed and modified by other classes inside and outside the same package.
+
+#Private access pros: Developers gets to have a full control over how he wants this instances to be accessed and how they can be modified and to what extent by implementing getter and setter methods. Hence instances are encapsulated. 
+
+#Private access cons: The code will be longer since each object that is private must have a getter and setter methods to insure that its access is still possible when needed to. therefore it becomes hard to work with when having inheritance due to having to have getter and setter methods in each and every class which makes the code much longer.
+
+
+
